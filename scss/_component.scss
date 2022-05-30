@@ -1,0 +1,83 @@
+.red{
+    color: $c-r!important;
+}
+// nav strat******************************
+.navv{
+    padding: 0px 20px;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+
+}
+.menu{
+    margin-left: 20px;
+    font-size: 24px;
+    color:$c-w;
+    cursor: pointer;
+    transition: all 0.4S;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+.login{
+    color: $c-r!important; 
+}
+.logo-h{
+    color:$c-w;
+    font-size: 35px;
+    cursor: pointer;
+}
+// nav end **********************************************************
+
+
+// header center start **********************************************
+.header-center{
+    text-align: center;
+}
+.big-txt{
+    margin: 0;
+    color: $c-w;
+    font-size: 130px;
+    position: absolute;
+    width: 70%;
+    top: 16%;
+    left:15%;
+    animation: to-right 2s ease-out;
+}
+.header-img{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+    z-index: 2;
+    animation: to-left 2s ease-out;
+
+}
+
+// header center end *********************************************
+
+// hesder icons start*********************************************
+.header-icons{
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    animation: to-right 1s ease-out;
+}
+.header-icon{
+    padding: 5px 0px 5px 10px;
+    color: $c-w;
+    font-size: 16px;
+
+}
+.header-icon-span{
+    margin-left: 5px;
+
+}
+
+
+
+// hesder icons end**********************************************
+
+
